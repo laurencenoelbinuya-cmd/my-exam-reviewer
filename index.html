@@ -49,15 +49,16 @@
                     <div id="topic-selector" style="display: flex; flex-wrap: wrap; gap: 8px; width: 100%;">
                         </div>
                 </div>
-                <div class="setting-row">
-                    <span class="setting-label">Question Count</span>
-                    <div class="segmented-control" id="count-selector">
-                        <button class="segment-btn" data-val="10" onclick="setCount(10)">10</button>
-                        <button class="segment-btn" data-val="20" onclick="setCount(20)">20</button>
-                        <button class="segment-btn" data-val="30" onclick="setCount(30)">30</button>
-                        <button class="segment-btn active" data-val="50" onclick="setCount(50)">50</button>
-                    </div>
-                </div>
+                                <div class="setting-row">
+    <span class="setting-label">Question Count</span>
+    <div class="segmented-control" id="count-selector">
+        <button class="segment-btn" data-val="10" onclick="setCount(10)">10</button>
+        <button class="segment-btn" data-val="30" onclick="setCount(30)">30</button>
+        <button class="segment-btn active" data-val="50" onclick="setCount(50)">50</button>
+        <button class="segment-btn" data-val="90" onclick="setCount(90)">90</button>
+        <button class="segment-btn" data-val="999" onclick="setCount(999)">All</button>
+    </div>
+</div>
 
                 <div class="setting-row">
                     <span class="setting-label">Difficulty (Timer)</span>
@@ -222,4 +223,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
